@@ -32,7 +32,7 @@ foreach ($tb as $baris) {
 		<td align="center"><?php echo $baris['status']; ?></td>
 		<td align="center">
 			<div class="button-edit">
-	            <a href="" data-toggle="modal" data-target="#suntingruangan<?php echo $baris['id_ruangan']; ?>" data-backdrop="static">Sunting</a>
+	            <a href="" data-toggle="modal" data-target="#suntingruangan<?php echo $baris['id_ruangan']; ?>" data-backdrop="static">Edit</a>
 	        </div>
 	        <div class="button-delete">
 	        	<a href="" data-toggle="modal" data-target="#hapusruangan<?php echo $baris['id_ruangan']; ?>" data-backdrop="static">Hapus</a>

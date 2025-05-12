@@ -1,81 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Peminjaman Ruangan Rapat</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/logo1.png" />
-        <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css?v=1.0" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Booking Room Meating</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>--> 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Informasi ketersediaan</h1>
-                        <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Platform ini memudahkan Anda dalam memesan ruangan rapat sesuai kebutuhan. Pilih ruangan, tentukan waktu, dan buat rapat Anda berjalan lancar!</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Next</a>
-                    </div>
-                </div>
-            </div>
-        </header>      
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We've got what you need!</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                        <a class="btn btn-light btn-xl" href="#j">Login</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2024 </div></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/landingpages.css" />
+  <!-- Include FullCalendar CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+  <title>Peminjaman Ruangan Rapat</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/gambar.png" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo" style="display: flex; align-items: center;">
+        <img src="assets/img/logo-new.png" alt="Logo" style="height: 40px; margin-right: 10px;" />
+        <a href="#" style="font-size: 1.5rem; font-weight: 400;">Booking<span>Room</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <span><i class="ri-menu-line"></i></span>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links"></ul>
+    <div class="nav__btns">
+      <a href="<?php echo base_url('login'); ?>" class="btn sign__in">Login</a>
+    </div>
+  </nav>
+
+  <header class="header__container" style="
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      margin: 0; 
+      padding: 0; 
+      flex-wrap: wrap;">
+
+    <!-- Kalender -->
+    <div class="header__content" style="
+        width: 100%; 
+        max-width: 500px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;">
+
+      <div class="calendar-section" style="width: 100%; margin: 0;">
+        <h3 style="text-align: center; color: #4A90E2; margin-bottom: 15px; font-size: 1.2rem;">
+          Kalender Peminjaman Ruangan
+        </h3>
+        <div id="calendar" style="margin: 20px auto; max-width: 900px;"></div>
+      </div>
+    </div>
+
+    <!-- Gambar -->
+    <div class="header__image" style="
+        width: 100%; 
+        max-width: 550px; 
+        aspect-ratio: 1; 
+        background-image: url('assets/img/interiornew.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        border-radius: 10px; 
+        opacity: 0.8;">
+    </div>
+  </header>
+
+  <!-- Include jQuery and FullCalendar JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      // Initialize the FullCalendar
+      $('#calendar').fullCalendar({
+        header: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'month,agendaWeek,agendaDay'
+        },
+        events: '<?php echo base_url("peminjaman/get_events"); ?>',
+        eventRender: function (event, element) {
+          element.attr('title', event.title + '\nStatus: ' + (event.color == '#4A90E2' ? 'Disetujui' : 'Selesai'));
+        }
+      });
+
+      // Fungsi untuk memperbarui status dan kalender secara langsung
+      function updateStatusAndCalendar() {
+        $.ajax({
+          url: '<?php echo base_url("peminjaman/api_update_status"); ?>',
+          type: 'GET',
+          dataType: 'json',
+          success: function (response) {
+            console.log('Status updated:', response);
+            if (response.updated_events && response.updated_events.length > 0) {
+              // Remove all existing events
+              $('#calendar').fullCalendar('removeEvents');
+
+              // Add the updated events
+              $('#calendar').fullCalendar('addEventSource', response.updated_events);
+            }
+          },
+          error: function (xhr, status, error) {
+            console.error('Error updating status:', error);
+          }
+        });
+      }
+
+      // Panggil fungsi sekali saat halaman dimuat
+      updateStatusAndCalendar();
+
+      // Jalankan pengecekan berkala setiap 30 detik
+      setInterval(updateStatusAndCalendar, 30000);
+    });
+  </script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/landing.js"></script>
+</body>
+
 </html>
